@@ -1,0 +1,92 @@
+<%- include('header') %>
+    <div class="hero-section">
+    <img class="hero-img" src="/assets/Images/young-couple-examining-blueprints-with-real-estate-agent-while-buying-new-home 1.svg" alt="mainpic" class="hero-img" />
+    <div class="hero-text">
+        <h3 class="sub-heading">We don't provide Houses, we provide HOMES</h3>
+        <h5>Build your house with us</h5>
+    </div>
+    <form action="/search">
+        <input type="text" placeholder="Enter City or Location" />
+        <button type="submit">Search</button>
+    </form>
+    </div>
+   
+
+    <div class="why">
+        <div class="why-container">
+            <h4 >Why Real Trust?</h4>
+            <ul>
+                <li>Verified Properties</li>
+                <li>24/7 Customer Support</li>
+                <li>No Hidden Charges</li>
+                <li>Location-based Suggestions</li>
+            </ul>
+        </div>
+    </div>
+    <div class="our process">
+        <div class="step step1">
+            <img src="/assets/Images/Ellipse 13.svg" alt="step1">
+            <p>you just need one consultation with us</p>
+        </div>
+        <div class="step step2">
+            <img src="/assets/Images/Ellipse 12.svg" alt="step2">
+            <p>After that you can have your own home</p>
+        </div>
+
+    </div>
+    <div class="homes">
+  <h3>Our provided homes</h3>
+
+  <div class="home-card">
+    <img src="/assets/Images/pexels-brett-sayles-2881232-1.svg" alt="home1" />
+    <p>Beautiful Home in the Hills</p>
+  </div>
+
+  <div class="home-card">
+    <img src="/assets/Images/pexels-brett-sayles-2881232-2.svg" alt="home2" />
+    <p>Luxury Villa with Garden</p>
+  </div>
+</div>
+
+<div class="testimonial">
+  <h3>What our clients say!!!</h3>
+  <div class="testimonial-container">
+    <div class="testimonial-card">
+      <img src="/assets/Images/Ellipse 28.svg" alt="consumer1" />
+      <p>With the help of "Real Trust" we are able to find our home.</p>
+    </div>
+    <div class="testimonial-card">
+      <img src="/assets/Images/Ellipse 29.svg" alt="consumer2" />
+      <p>They make everything smooth like butter.</p>
+    </div>
+    <div class="testimonial-card">
+      <img src="/assets/Images/Ellipse 31.svg" alt="consumer3" />
+      <p>These guys are the best.</p>
+    </div>
+    <div class="testimonial-card">
+      <img src="/assets/Images/Ellipse 35.svg" alt="consumer4" />
+      <p>I sold my old home with them. Great deals!</p>
+    </div>
+  </div>
+</div>
+<div class="cta-section">
+    <h2>Ready to Find Your Dream Home?</h2>
+    <p>Book a free consultation with our experts today.</p>
+    <button id="cta-btn">Get Consultation</button>
+</div>
+<div class="contact-section">
+  <h3>Contact Us</h3>
+  <form action="/contact" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+
+
+<script src="/js/script.js"></script>
+<%- include('footer') %>
+
+    
